@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_image">#ff2c3c49</color>
+    <color name="contact_color">#02b3e4</color>
+    <color name="name_text_color">#02b3e4</color>
+    <color name="street_color">#02b3e4</color>
+    <color name="address_text_color">#02b3e4</color>
+    <color name="phone_color">#02b3e4</color>
+</resources>

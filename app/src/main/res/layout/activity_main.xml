@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_image">
+
+    <ImageView
+        android:id="@+id/logoPic"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginTop="@dimen/logo_mar_top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity_logo_small_dark" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/map_height"
+        android:layout_above="@+id/fb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/map_marg_bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity_map" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/contact_mar_start"
+        android:layout_marginTop="@dimen/contact_mar_top"
+        android:text="@string/contact_us"
+        android:textColor="@color/contact_color"
+        android:textSize="@dimen/contact_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:layout_marginStart="@dimen/name_mar_start"
+        android:layout_marginTop="@dimen/name_mar_top"
+        android:text="@string/udacity"
+        android:textColor="@color/name_text_color"
+        android:textSize="@dimen/name_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="@dimen/street_mar_start"
+        android:layout_marginTop="@dimen/street_mar_top"
+        android:text="@string/_2465_latham_st"
+        android:textColor="@color/street_color"
+        android:textSize="@dimen/street_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/street"
+        android:layout_marginStart="@dimen/address_mar_start"
+        android:layout_marginTop="@dimen/address_mar_top"
+        android:text="@string/mountain_view_ca_94043"
+        android:textColor="@color/address_text_color"
+        android:textSize="@dimen/address_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_marginStart="@dimen/phone_mar_start"
+        android:layout_marginTop="@dimen/phone_mar_top"
+        android:text="@string/_650_555_5555"
+        android:textColor="@color/phone_color"
+        android:textSize="@dimen/phone_text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="@dimen/fb_width"
+        android:layout_height="@dimen/fb_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/fb_mar_bottom"
+        android:layout_marginEnd="@dimen/fb_mar_end"
+        android:layout_toStartOf="@+id/twitter"
+        android:background="@drawable/fb_logo"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/twitter"
+        android:layout_width="@dimen/twitter_width"
+        android:layout_height="@dimen/twitter_height"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/twitter_logo"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/googlePlus"
+        android:layout_width="@dimen/google_width"
+        android:layout_height="@dimen/google_height"
+        android:layout_below="@+id/map"
+        android:layout_marginStart="@dimen/google_mar_start"
+        android:layout_toEndOf="@+id/twitter"
+        android:background="@drawable/googleplus_logo"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

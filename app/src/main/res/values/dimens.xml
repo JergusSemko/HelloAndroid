@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_width">180dp</dimen>
+    <dimen name="logo_height">180dp</dimen>
+    <dimen name="logo_mar_top">25dp</dimen>
+    <dimen name="map_height">100dp</dimen>
+    <dimen name="map_marg_bottom">25dp</dimen>
+    <dimen name="contact_mar_start">10dp</dimen>
+    <dimen name="contact_mar_top">15dp</dimen>
+    <dimen name="contact_size">40sp</dimen>
+    <dimen name="name_mar_start">10dp</dimen>
+    <dimen name="name_mar_top">30dp</dimen>
+    <dimen name="name_text_size">20sp</dimen>
+    <dimen name="street_mar_start">10dp</dimen>
+    <dimen name="street_mar_top">25dp</dimen>
+    <dimen name="street_text_size">20sp</dimen>
+    <dimen name="address_mar_start">10dp</dimen>
+    <dimen name="address_mar_top">25dp</dimen>
+    <dimen name="address_text_size">20sp</dimen>
+    <dimen name="phone_mar_start">10dp</dimen>
+    <dimen name="phone_mar_top">25dp</dimen>
+    <dimen name="phone_text_size">20sp</dimen>
+    <dimen name="fb_width">70dp</dimen>
+    <dimen name="fb_height">70dp</dimen>
+    <dimen name="fb_mar_bottom">20dp</dimen>
+    <dimen name="fb_mar_end">28dp</dimen>
+    <dimen name="twitter_width">70dp</dimen>
+    <dimen name="twitter_height">70dp</dimen>
+    <dimen name="google_width">70dp</dimen>
+    <dimen name="google_height">70dp</dimen>
+    <dimen name="google_mar_start">29dp</dimen>
+</resources>
